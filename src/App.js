@@ -1,9 +1,10 @@
 import {BrowserRouter as Router } from 'react-router-dom';
+import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import { Home } from './pages/Home';
 import '../src/components/style.css'
 
-function App() {
+const App = () => {
   return (
     <>
       <Router>
