@@ -1,14 +1,10 @@
-export const styles = {
+import { makeStyles } from "@mui/styles";
 
-    containerNav: {
-        with: "100%",
-        display: 'flex',
-        flexDirection: 'row'
+const useStyle = makeStyles({
+    root:{
+        margin: '0',
     },
+});
 
-    ulNav: {
-        display: 'flex',
-        flexDirection: 'row'
-    }
-
-};
+export default useStyle;
+ 
